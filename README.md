@@ -54,4 +54,4 @@ become_ask_pass=False
         - sudarshan
         - ajay
         - vijay
-      when: inventory_hostname in groups['dev'] or inventory_hostname in groups['test']
+      when: inventory_hostname in groups['A'] or inventory_hostname in groups['B']
